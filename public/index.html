@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Inspiration</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Design, Interior, Inspiration">
+        <link rel="stylesheet" href="interior.css">
+        <link rel="shortcut icon" href="./pics/logov2.png" type="image/x-icon">
+        <script defer src="interior.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <img src="./pics/logov2.png" alt="logo" id="logo1">
+            <h1>Inspiration</h1>
+            <h3>Change Your Scenery...</h3>
+        </header>
+        <nav class="navbar">
+            <ul>
+                <li class="nav-list"><a href="#" class="nav-link">Menu</a></li>
+                <li class="nav-list" id="dropdown"><a href="" class="nav-link">Interior Designs</a>
+                <ul id="dropdown-menu">
+                    <li><a href="#kitchen">Kitchen</a></li>
+                    <li><a href="#right">Living Room</a></li>
+                    <li><a href="#bathroom">Bathroom</a></li>
+                </ul></li>
+                <li class="nav-list"><a href="#staff" class="nav-link" >Designers</a></li>
+                <li class="nav-list"><a href="#" class="nav-link" id="contact">Contact Us</a></li>
+                <li class="nav-list"><a href="#about" class="nav-link">About</a></li>
+            </ul>
+        </nav>
+        <section class="frame">
+            <div id="p1" class="p"></div>
+            <button id="prev"><</button>
+            <div class="carousel">
+                <div class="c-image" id="1">
+                    <img src="./pics/pic1.jpg" alt="interior_design">
+                    <p><cite>"Have no fear of perfection -- you'll never reach it."</cite></p>
+                </div>
+                <div class="c-image" id="2">
+                    <img src="./pics/pic2.jpg" alt="interior_design">
+                    <p><cite>"Design is intelligence made visible."</cite></p>
+                </div>
+                <div class="c-image" id="3">
+                    <img src="./pics/pic3.jpg" alt="interior_design">
+                    <p><cite>"You can't use up creativity. The more you use, the more you have."</cite></p>
+                </div>
+                <div class="c-image" id="4">
+                    <img src="./pics/pic4.jpg" alt="interior_design">
+                    <p><cite>"Design adds value faster than it adds costs."</cite></p>
+                </div>
+                <div class="c-image" id="5">
+                    <img src="./pics/pic5.jpg" alt="interior_design">
+                    <p><cite>"Make it simple, but significant."</cite></p>
+                </div>
+                <nav class="c-btngrp">
+                    <ul class="c-btns">
+                        <li class="c-list"><button class="c-btn"></button></li>
+                        <li class="c-list"><button class="c-btn"></button></li>
+                        <li class="c-list"><button class="c-btn"></button></li>
+                        <li class="c-list"><button class="c-btn"></button></li>
+                        <li class="c-list"><button class="c-btn"></button></li>
+                    </ul>
+                </nav>
+            </div>
+            <button id="next">></button>
+            <div id="p2" class="p"></div>
+        </section>
+        <section class="staff" id="staff">
+            <h1>Rely On Our Professional Personnel</h1>
+            <div class="profile">
+                <img src="./pics/person1.jpg" alt="member">
+                <p>Deacon O'Sullivan <br><br>
+                   Assistant Interior Designer
+                </p>
+                <button class="contactp">Contact</button>
+            </div>
+            <div class="profile">
+                <img src="./pics/person2.jpg" alt="member">
+                <p>Kelsey Barnett <br> <br>
+                   Administrative Assistant
+                </p>
+                <button class="contactp">Contact</button>
+            </div>
+            <div class="profile">
+                <img src="./pics/person3.jpg" alt="member">
+                <p>Nisha Trujillo <br><br>
+                    Project Manager
+                </p>
+                <button class="contactp">Contact</button>
+            </div>
+            <div class="profile">
+                <img src="./pics/person4.jpg" alt="member">
+                <p>Robin Morales <br><br>
+                    CAD or BIM Expert
+                </p>
+                <button class="contactp">Contact</button>
+            </div>
+        </section>
+        <section class="category">
+            <h1>Various Interiors For Each Room</h1>
+            <div class="card" id="kitchen">
+                <img src="./pics/kitchen.jpg" alt="kitchen pic">
+                <article>
+                    <h2>Kitchen</h2>
+                    <p>
+                        As a matter of fact, cooking food in a daily basis
+                        can be rather tedious. What about making the kitchen so good
+                        that your favourite hobby becomes cooking?
+                    </p>
+                </article>
+            </div>
+            <div class="card" id="right">
+                <article>
+                    <h2>Living Room</h2>
+                    <p>
+                        Haven't you fed up with the same view you see everytime
+                        you come from your workplace exhausted? Well, let our Professional
+                        Staff do some magic in your house and your living room will become
+                        your fastcharging station. 
+                    </p>
+                </article>
+                <img src="./pics/livingroom.jpg" alt="kitchen pic">
+            </div>
+            <div class="card" id="bathroom">
+                <img src="./pics/bathroom.jpg" alt="bathroom pic">
+                <article>
+                    <h2>Bathroom</h2>
+                    <p>
+                        Inspiration Interior Design Team will rebuild your 
+                        bathroom even you will mistaken it with waterfall that is
+                        located above the clouds and will help you reach your ultimate
+                        relaxation.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <form action="">
+                <label for="news">Sign up for the latest News and More:</label><br>
+                <input type="text" id="news" placeholder="Enter Your Email">
+                <input type="submit" value="Submit">
+                <img src="./pics/logov2.png" alt="logo" id="logo2">
+            </form>
+            <img src="./pics/Professional handyman construction services - Made with PosterMyWall (1).jpg" alt="poster">
+        </section>
+        <section class="modal">
+            <form>
+                <h1>Inspiration</h1>
+                <label for="name">Your Name:</label><br>
+                <input type="text" name="name" id="name"> <br>
+                <label for="email">Your Email Adress:</label> <br>
+                <input type="text" name="email" id="email"><br>
+                <label for="note">Extra Note:</label><br>
+                <textarea name="note" id="note" cols="30" rows="10"></textarea><br>
+                <input type="submit" value="Submit">
+                <button id="modal-close-btn">Close</button>
+            </form>
+        </section>
+        <div class="modal-bg"></div>
+        <footer class="footer">
+            <address>Contact us: example@gmail.com</address>
+            <address>Phone: 0123456789</address>
+            <cite>©Emil Rahimov</cite>
+        </footer>
+    </body>
+</html>

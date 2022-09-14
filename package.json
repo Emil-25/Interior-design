@@ -1,0 +1,22 @@
+{
+  "name": "interior",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss": "postcss public/interior.css -o public/interior.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.10",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0"
+    
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 versions"
+]
+}
